@@ -52,14 +52,16 @@ firstBox.appendChild(button)
 button.className = "button_style";
 
 button.addEventListener("click", ()=>{
-  
-  button.style.marginTop = "20px";
+
+  // button.style.position = "20px";
   
   if(button.textContent === "DELETE CIRCLE"){
     button.textContent = "RETURN CIRCLE";
     circle.style.display = "none";
+    button.style.marginTop = "20px";
   }else{
     button.textContent = "DELETE CIRCLE";
     circle.style.display = "block";
+    button.style.marginTop = "0";
   }
 })
