@@ -1,0 +1,34 @@
+.box{
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* დავალება 2 */
+.h2_class{
+  font-size: 40px;
+  font-weight: 900;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+/* დავალება 5 */
+
+.button_style{
+  background-color: red;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button_style:hover{
+  border: 2px solid white;
+}
